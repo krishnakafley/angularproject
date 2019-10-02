@@ -11,4 +11,4 @@ phases:
         - ng build
     post_build:
       commands:
-        - aws s3 cp dist/angularproject s3://krishnakafleybucket --recursive
+        - aws s3 cp dist/AngularProject s3://krishnakafleybucket --recursive
