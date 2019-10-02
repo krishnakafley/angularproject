@@ -1,0 +1,9 @@
+
+
+<p>State Population</p>
+<p></p>
+<label >Year : </label>
+<input type="text" [(ngModel)] = "year">
+<button (click)= "showAllData()">Get</button>
+
+<h6 *ngFor = "let state of states"> {{state["State"]}} : {{state["Population"]}}</h6>
